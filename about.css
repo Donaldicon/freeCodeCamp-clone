@@ -1,0 +1,143 @@
+
+.about-me{
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.about-header-one{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.about-me p{
+    font-size: 25px;
+    line-height: 40px;
+    color: #DFDFE2;
+}
+
+.about-me p a{
+    color: #39CB75;
+}
+
+.work-with-me{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #39CB75;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.about-footer-container{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.about-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-1{
+    width: 300px;
+    margin-top: 50px;
+}
+
+.about-header-two{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.email-subscription{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.enter-your-email{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #39CB75;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    width: 150px;
+}
+
+.subscribe-now{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    background-color: #39CB75;
+    color: white;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+.footer-1 p{
+    line-height: 25px;
+    color: #DFDFE2;
+}
+
+.footer-2{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.footer-2 div{
+    margin-bottom: 15px;
+    color: #DFDFE2;
+}
+
+.follow-me-links{
+    text-decoration: none;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+
+.follow-me-links:hover{
+    text-decoration: underline;
+    color: #39CB75;
+}
+
+.copyright{
+    font-size: 20px;
+    color: #DFDFE2;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 342px) {
+    .enter-your-email{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 853px) {
+    .about-header-one{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-me{
+        padding-top: 150px;
+    }
+}
