@@ -9,6 +9,7 @@ body{
     background: #1b1b32;
 }
 
+
 /* navbar */
 
 .header{
@@ -32,6 +33,14 @@ body{
     margin-right: 15px;
     font-size: 30px;
     font-family: 'saxMono', sans-serif;
+}
+
+ a{
+    text-decoration: none;
+}
+
+.header h1 a:hover{
+    text-decoration: none;
 }
 
 .input-icons {
@@ -89,6 +98,7 @@ body{
     color: white;
     padding-top: 5px;
     background: #0a0a23;
+    margin-left: -15px;
 }
 
 .list-items a{
@@ -100,6 +110,13 @@ li{
     color: white;
     margin-top: 30px;
     margin-bottom: 3px;
+    transition: .2s ease-in-out;
+}
+
+.list-items li:hover{
+    color: black;
+    background-color: white;
+    padding: 2px 3px;
 }
 
 .off-screen-menu{
@@ -535,6 +552,14 @@ li{
     color: #DFDFE2;
 }
 
+.footer-paragraph a{
+    transition: all .2s ease-in-out;
+}
+
+.footer-paragraph a:hover{
+    text-decoration: none;
+}
+
 .trending-guides{
     display: flex;
     flex-direction: column;
@@ -725,6 +750,16 @@ li{
 }
 
 @media only screen and (max-width: 1000px) {
+
+    .list-items li:hover{
+        color: black;
+        background-color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        margin-left: -40px;
+    }
+    
     .input-icons{
         display: none;
     }
@@ -783,6 +818,7 @@ li{
         width: 100%;
         gap: 20px;
     }
+
     .hero-section{
         padding-top: 160px;
     }

@@ -1,3 +1,14 @@
+
+*{
+    margin: 0;
+    color: white;
+    font-family: 'Lato', sans-serif;                                       
+}
+
+body{
+    background: #1b1c31;
+}
+
 .services{
     padding-top: 100px;
     padding-left: 30px;
@@ -5,6 +16,7 @@
 }
 
 .service-header{
+
     text-align: center;
     font-weight: bold;
     font-size: 45px;
@@ -18,7 +30,7 @@
 }
 
 .the-service{
-    background-color: #0d1222;
+    background: #0a0a23;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -40,19 +52,24 @@
 .service-description{
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
 .dm-me{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .dm-me a{
-    color: #39CB75;
+    color: white;
+    transition: .2s ease-in-out;
+}
+
+.dm-me a:hover{
+    text-decoration: none;
 }
 
 
